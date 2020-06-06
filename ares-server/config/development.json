@@ -1,0 +1,13 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "database": {
+        "client": "sqlite3",
+        "useNullAsDefault": true,
+        "debug": true,
+        "connection": {
+            "filename": "../storage/database.sqlite3"
+        }
+    }
+}
